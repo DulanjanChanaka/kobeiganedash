@@ -72,7 +72,7 @@ const Navbar = () => {
                 }>
                     <div className=''>
                         <div className='flex w-full items-center justify-between'>
-                            <h3>Logo</h3>
+                            <h3>Kobeigane</h3>
                                
                             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                 <AiOutlineClose />
@@ -83,7 +83,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className='py-4 flex flex-col '>
-                        <ul className='uppercase'>
+                        <ul className='uppercase text-black'>
                             <Link to='/'>
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Message</li>
                             </Link>
