@@ -6,6 +6,8 @@ import Moh from "./components/moh";
 import Weight from "./components/weight";
 import Mother from "./components/mother";
 import Navbar from "./components/navbar";
+import Threeposha from "./components/threeposha";
+import Education from "./components/education";
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
         <Route  path='/moh' element={<Moh/>}/>
         <Route  path='/weight' element={<Weight/>}/>
         <Route  path='/mother' element={<Mother/>}/>
+        <Route  path='/threeposha' element={<Threeposha/>}/>
+        <Route  path='/education' element={<Education/>}/>
         
         <Route/>
       </Routes>

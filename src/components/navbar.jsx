@@ -57,6 +57,19 @@ const Navbar = () => {
 
                             >Mother</li>
                         </Link>
+
+                        <Link to='/threeposha'>
+                            <li
+                                
+
+                            >Threep</li>
+                        </Link>
+                        <Link to='/education'>
+                            <li
+                                
+
+                            >Educa</li>
+                        </Link>
                     </ul>
 
                     <div onClick={handleNav} className='md:hidden'>
@@ -101,6 +114,12 @@ const Navbar = () => {
                             </Link>
                             <Link to='/mother'>
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Mother</li>
+                            </Link>
+                            <Link to='/threeposha'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Threep</li>
+                            </Link>
+                            <Link to='/education'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Educa</li>
                             </Link>
                         </ul>
 
