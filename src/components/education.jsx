@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { useEffect } from 'react'
 import { db } from '../firebase/firebase'
 import { DataGrid } from '@mui/x-data-grid';
-import ThreepForm from './threepForm';
+
 import EducationForm from './educationForm';
 const Education = () => {
     
