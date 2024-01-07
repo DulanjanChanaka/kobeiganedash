@@ -8,6 +8,8 @@ import Mother from "./components/mother";
 import Navbar from "./components/navbar";
 import Threeposha from "./components/threeposha";
 import Education from "./components/education";
+import Baby from "./components/baby";
+
 
 function App() {
 
@@ -24,6 +26,9 @@ function App() {
         <Route  path='/mother' element={<Mother/>}/>
         <Route  path='/threeposha' element={<Threeposha/>}/>
         <Route  path='/education' element={<Education/>}/>
+        <Route  path='/baby' element={<Baby/>}/>
+        
+        
         
         <Route/>
       </Routes>

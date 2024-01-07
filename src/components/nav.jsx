@@ -57,6 +57,12 @@ const Navbar = () => {
 
                             >Contact</li>
                         </Link>
+                        <Link href='/#baby'>
+                            <li
+                                className={`ml-10 text-sm uppercase hover:border-b-2 hover:text-[#5651e5] ${activeItem === 'item5' ? 'border-black' : ''}`}
+
+                            >Baby</li>
+                        </Link>
                     </ul>
 
                     <div onClick={handleNav} className='md:hidden'>
@@ -98,6 +104,9 @@ const Navbar = () => {
                             </Link>
                             <Link href='/#contact'>
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
+                            </Link>
+                            <Link href='/#baby'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Baby</li>
                             </Link>
                         </ul>
 
