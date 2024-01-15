@@ -45,6 +45,18 @@ const [ids , setIds] = useState("")
           <option key={5} value='wellwoman'>
           Well woman
           </option>
+
+          <option key={6} value='vdrl'>
+          VDRL / HIV
+          </option>
+
+          <option key={7} value='poshana'>
+          Poshana
+          </option>
+
+          <option key={8} value='new'>
+          New Married
+          </option>
        
       </select>
       <select className='w-[180px] mb-6 py-3 px-5 bg-slate-400 text-white rounded-lg' value={selectedField} onChange={(e) => setSelectedField(e.target.value)}>
